@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "386907422401",
+    "firebase_url": "https://onlinedatabase-52b7a-default-rtdb.firebaseio.com",
+    "project_id": "onlinedatabase-52b7a",
+    "storage_bucket": "onlinedatabase-52b7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386907422401:android:4d8c3f5265f6cd7e615e40",
+        "android_client_info": {
+          "package_name": "com.fyp.weddings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386907422401-f71k1l0kcma902oem6qi71tm7mg729m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnveGGGbj2q0hEZjRhKvWgNpFTzvchxW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386907422401-f71k1l0kcma902oem6qi71tm7mg729m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386907422401:android:c7589ef60b0e09d3615e40",
+        "android_client_info": {
+          "package_name": "com.livewall.lawwalletfinalyearproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386907422401-f71k1l0kcma902oem6qi71tm7mg729m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnveGGGbj2q0hEZjRhKvWgNpFTzvchxW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386907422401-f71k1l0kcma902oem6qi71tm7mg729m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

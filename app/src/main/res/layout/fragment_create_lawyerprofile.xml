@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaywerActivity.Fragment.CreateLawyerprofileFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:id="@+id/pickimageid"
+        android:src="@drawable/usericon">
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/background"
+        android:layout_marginStart="24dp"
+        android:drawablePadding="10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/ednameid"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/background"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:hint="Enter Name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/background"
+        android:layout_marginStart="24dp"
+        android:drawablePadding="10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/ednumberid"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/background"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:hint="Enter Lawyernumber"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/background"
+        android:layout_marginStart="24dp"
+        android:drawablePadding="10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/edspeciid"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/background"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:hint="Enter specification"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/background"
+        android:layout_marginStart="24dp"
+        android:drawablePadding="10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/edexperienceid"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/background"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:hint="Enter Experience"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/background"
+        android:layout_marginStart="24dp"
+        android:drawablePadding="10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/edcharaddressesid"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/background"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:hint="Enter officeAddressed"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Profile"
+        android:id="@+id/btncreateprofileid"
+        android:backgroundTint="@color/borron"
+        android:layout_margin="35dp"
+        />
+    </LinearLayout>
+</ScrollView>

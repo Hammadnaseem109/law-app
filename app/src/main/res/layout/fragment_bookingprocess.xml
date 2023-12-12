@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBF4"
+    tools:context=".UserActivity.BookingprocessFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Booking Details"
+        android:textColor="@color/borron"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="20dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                style="@style/edittext"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/black"
+                android:inputType="textPersonName"
+                android:id="@+id/edfirstnamebookid"
+                android:padding="15dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:hint="Enter your name"
+                />
+            <EditText
+                style="@style/edittext"
+                android:inputType="textPersonName"
+                android:id="@+id/edclientphonenumberID"
+                android:padding="15dp"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/black"
+                android:background="@drawable/edittextbackground"
+                android:drawableStart="@drawable/ic_baseline_local_phone_24"
+                android:hint="Enter your phonenumber"
+                />
+            <EditText
+                style="@style/edittext"
+                android:inputType="textPersonName"
+                android:id="@+id/edshortmessageID"
+                android:padding="80dp"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/black"
+                android:background="@drawable/edittextbackground"
+                android:drawableStart="@drawable/ic_baseline_message_24"
+                android:hint="message"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply for Appointment"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/custombtn"
+                android:id="@+id/applyforapppointmentID"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

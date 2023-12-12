@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBF4"
+    tools:context=".LaywerActivity.LawyerProfileActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:background="#FFFBF4"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Create Profile"
+                android:textColor="@color/borron"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/putimg"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/pickprofileimageID"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+            <EditText
+                style="@style/edittext"
+                android:inputType="textPersonName"
+                android:id="@+id/edfirstnameid"
+                android:padding="15dp"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/black"
+                android:background="@drawable/edittextbackground"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:hint="First name"
+                />
+            <EditText
+                style="@style/edittext"
+                android:inputType="textPersonName"
+                android:id="@+id/edexperID"
+                android:padding="15dp"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/black"
+                android:background="@drawable/edittextbackground"
+                android:drawableStart="@drawable/ic_baseline_perm_identity_24"
+                android:hint="Experience"
+                />
+            <EditText
+                style="@style/edittext"
+                android:inputType="textPersonName"
+                android:id="@+id/edspecilicationID"
+                android:padding="15dp"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/black"
+                android:background="@drawable/edittextbackground"
+                android:drawableStart="@drawable/ic_baseline_perm_identity_24"
+                android:hint="Specailication"
+                />
+            <EditText
+                style="@style/edittext"
+                android:inputType="textPersonName"
+                android:id="@+id/ednumberchamberID"
+                android:padding="15dp"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/black"
+                android:background="@drawable/edittextbackground"
+                android:drawableStart="@drawable/ic_baseline_location_city_24"
+                android:hint="Enter City name"
+                />
+            <EditText
+                style="@style/edittext"
+                android:inputType="textPersonName"
+                android:id="@+id/edaddressesID"
+                android:padding="15dp"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/black"
+                android:background="@drawable/edittextbackground"
+                android:drawableStart="@drawable/ic_baseline_add_location_24"
+                android:hint="Address"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create profile"
+                android:layout_margin="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/custombtn"
+                android:id="@+id/btnprofileid"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

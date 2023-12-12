@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SigninActivity">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/applogo"/>
+                <TextView
+                    style="@style/textview"
+                    android:layout_marginTop="20sp"
+                    android:text="LegalOpt"
+                    android:textColor="#8A5A12"
+                    android:textSize="24sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    style="@style/textview"
+                    android:layout_marginTop="20sp"
+                    android:text="Welcome Back"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+
+                    android:id="@+id/edemailid"
+                    style="@style/edittext"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray"
+                    android:background="@drawable/edittextbackground"
+                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:hint="E-mail"
+                    android:inputType="textEmailAddress"
+                    android:padding="15dp" />
+
+                <EditText
+                    android:id="@+id/edpasswordid"
+                    style="@style/edittext"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray"
+                    android:background="@drawable/edittextbackground"
+                    android:drawableStart="@drawable/ic_baseline_perm_identity_24"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="15dp" />
+                <TextView
+                    android:id="@+id/forgotpasswordid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="12dp"
+                    android:text="Forgot password"
+                    android:textColor="@color/black" />
+
+
+                <Button
+                    android:id="@+id/btnloginid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:backgroundTint="#8A5A12"
+                    android:text="LOgin"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Dont have account yet?"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sign Up"
+                        android:id="@+id/signuptvid"
+                        android:textColor="#8A5A12"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+</ScrollView>

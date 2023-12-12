@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Update Profile"
+        android:id="@+id/updateuserpro"
+        android:icon="@drawable/profile"></item>
+    <item android:title="List of Lawyers"
+        android:id="@+id/lisToflawyer"
+        android:icon="@drawable/people"></item>
+    <item android:title="Create post"
+        android:id="@+id/createpostID"
+        android:icon="@drawable/branding"></item>
+    <item android:title="View post"
+        android:id="@+id/viewpostmenuID"
+        android:icon="@drawable/calendardate"></item>
+    <item android:title="Law Dirary"
+        android:id="@+id/lawdiarayuserID"
+        android:icon="@drawable/lawbook"></item>
+    <item android:title="Chat with Lawyers"
+        android:id="@+id/chatwithLawyers"
+        android:icon="@drawable/chat"></item>
+    <item android:title="SharePdf"
+        android:id="@+id/sharepdfID"
+        android:icon="@drawable/chat"></item>
+    <item android:title="View SharePdf"
+        android:id="@+id/viewsharepdfID"
+        android:icon="@drawable/chat"></item>
+    <item android:title="Sign out"
+        android:id="@+id/signout"
+        android:icon="@drawable/logout"></item>
+</menu>
